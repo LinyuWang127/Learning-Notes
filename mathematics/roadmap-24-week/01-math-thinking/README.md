@@ -4,8 +4,7 @@
 
 | 课程 | 链接 | 备注 |
 |---|---|---|
-| Mathematical Thinking in Computer Science | https://www.coursera.org/learn/mathematical-thinking-computer-science | 英文主线 |
-| 离散数学概论（北京大学·陈斌） | https://www.icourse163.org/course/PKU-1002525004 | 中文对照，重点单元 2–7 |
+| MIT 6.1200J Mathematics for Computer Science（前段） | https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/ | 逻辑、证明、归纳、不变量、状态机 |
 
 ## 本级目标
 
@@ -13,9 +12,9 @@
 
 ## 任务清单
 
-- [ ] 每周完成 1 个 Coursera 模块
+- [ ] 每周跟 2–3 讲 lecture + 对应 problem set 精选习题
 - [ ] 4 篇 Markdown 笔记存入 `notes/`
-- [ ] 课程完成记录截图存入 `certificates/`
+- [ ] 习题解答存入 `problem-sets/`
 
 ## 文件夹结构
 
@@ -23,5 +22,5 @@
 01-math-thinking/
 ├── README.md
 ├── notes/          # 每周笔记
-└── certificates/   # 证书/完成记录
+└── problem-sets/   # 习题解答
 ```

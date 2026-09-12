@@ -23,7 +23,8 @@
 
 ## 补充资源（可选 · 入门友好）
 
-- [Mathematical Foundations for Cryptography（University of Colorado Boulder, Coursera）](https://www.coursera.org/learn/mathematical-foundations-cryptography)：可免费旁听，从质数、模算术、乘法逆元、扩展欧几里得算法讲到离散对数——密码学数学最对口的入门课，无需前置经验，适合在本课之前热身或并行对照
+- 前置热身：本仓库 [6.1200J Mathematics for Computer Science](../../math-core/05-61200j-mathematics-for-computer-science/) 的数论单元（整除、同余、GCD）——同一体系内先行铺垫
+- 更平缓的第一遍：[18.703 Modern Algebra](../01-18703-modern-algebra/) 前几讲的群与环直觉，再回看本课会更顺
 - 配套实践：`code/` 中用 Python 实现扩展欧几里得算法与 RSA 加解密，附测试向量
 
 ## 引用格式（写进申请材料时）

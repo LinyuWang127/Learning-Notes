@@ -4,10 +4,7 @@
 
 | 课程 | 链接 | 周次 |
 |---|---|---|
-| 信息安全数学基础（上海交大·陈恭亮） | https://www.icourse163.org/course/SJTU-1003379015 | 中文主线，12 周跟开课期 |
-| 同课程镜像（智慧教育平台） | https://higher.smartedu.cn/course/6a59477940d86e7f37c2fc1b | 备用 |
-| Number Theory and Cryptography | https://www.coursera.org/learn/number-theory-cryptography | 第 11–13 周 |
-| Mathematical Foundations for Cryptography | https://www.coursera.org/learn/mathematical-foundations-cryptography | 第 14–16 周 |
+| MIT 18.781 Theory of Numbers | https://ocw.mit.edu/courses/18-781-theory-of-numbers-spring-2012/ | 第 11–16 周 |
 
 ## 本级目标
 
@@ -15,8 +12,8 @@
 
 ## 任务清单
 
-- [ ] 上交课程每章作业在 MOOC 平台提交，认真对待成绩
-- [ ] MOOC 认证证书 + Coursera 证书 ×2
+- [ ] 每章 problem set 独立完成，解答上传 `problem-sets/`
+- [ ] 4 篇笔记存入 `notes/`
 - [ ] Python 实现并放入 `code/`：
   - [ ] 大素数生成（Miller-Rabin）
   - [ ] 扩展欧几里得 / 模逆
@@ -31,6 +28,6 @@
 03-crypto-math/
 ├── README.md
 ├── notes/
-├── code/           # 上述算法实现
-└── certificates/
+├── code/           # RSA / 模逆 / 椭圆曲线 实现
+└── problem-sets/
 ```

@@ -20,7 +20,7 @@ Artin 的 Algebra I 是 MIT 数学专业的荣誉线抽象代数（比 18.703 �
 
 ## 补充资源（可选）
 
-- [离散数学概论（北京大学, 中国大学MOOC）](https://www.icourse163.org/course/PKU-1002525004)：含抽象代数模块，中文授课，适合卡壳时对照
+- 卡壳时先退回 [18.703 Modern Algebra](../01-18703-modern-algebra/)：同体系的本科入门版，把群、环、域先过一遍再回看 Artin
 - Artin《Algebra》是课程指定教材，图书馆或二手渠道获取
 
 ## 引用格式（写进申请材料时）

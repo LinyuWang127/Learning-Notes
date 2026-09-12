@@ -25,9 +25,9 @@ MIT CS 的数学基础课：证明方法（归纳、反证、良序）、数论�
 
 > Massachusetts Institute of Technology. *Mathematics for Computer Science (6.1200J)*, Spring 2024. MIT OpenCourseWare (https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/). CC BY-NC-SA.
 
-## 补充资源（可选 · 中文/入门友好）
+## 补充资源（可选 · 入门友好）
 
-- [Mathematical Thinking in Computer Science（UC San Diego, Coursera）](https://www.coursera.org/learn/mathematical-thinking-computer-science)：专为转专业者设计的证明思维入门课，可免费旁听，适合在本课之前或并行建立证明直觉
-- [离散数学概论（北京大学, 中国大学MOOC）](https://www.icourse163.org/course/PKU-1002525004)：中文授课的离散数学对照课程，适合卡壳时换中文视角重看
 - 免费配套教材《Mathematics for Computer Science》PDF：课程主页可直接下载（Lehman / Leighton / Meyer，含完整习题集）
+- 数学前置不稳时，可与 [18.01SC Single Variable Calculus](../01-1801sc-single-variable-calculus/) 并行——两边都在练"读数学、写证明"
+- 卡壳的单元看课程页的 recitation（助教习题课）视频，节奏比 lecture 慢，逐步拆解
 
