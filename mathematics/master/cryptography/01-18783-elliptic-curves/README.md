@@ -21,6 +21,12 @@ Sutherland 的椭圆曲线课是全网络公认最佳。群法、除子、双线
 - 椭圆曲线离散对数问题的攻击面综述
 - 配对友好的椭圆曲线与基于身份的加密
 
+## 配套实践资源
+
+- [Cryptography-From-First-Principle（GitHub: duyuefeng0708）](https://github.com/duyuefeng0708/Cryptography-From-First-Principle)：12 个模块、123 个交互式 Notebook、57 个 Rust 练习，从模算术到零知识证明；用 SageMath 可视化群、曲线和格，用 Rust 从零实现每个密码学原语——学完本课后用它做跨方向实战
+- 本课 `code/` 建议产出：ECDH 密钥交换与 ECDSA 签名的完整实现（可用 Python + numpy 大数运算或 SageMath），附已知测试向量验证
+- 用 SageMath 或 Python 实现 GF(2^8) 有限域构造并验证 AES S-box 的生成过程（衔接 18.703/18.701）
+
 ## 引用格式（写进申请材料时）
 
 > Massachusetts Institute of Technology. *Elliptic Curves (18.783)*, Spring 2021. MIT OpenCourseWare (https://ocw.mit.edu/courses/18-783-elliptic-curves-spring-2021/). CC BY-NC-SA.

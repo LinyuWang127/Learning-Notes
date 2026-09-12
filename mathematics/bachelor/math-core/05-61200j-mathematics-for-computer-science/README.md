@@ -1,4 +1,4 @@
-# 18.062J · Mathematics for Computer Science 计算机科学数学（离散数学）
+# 6.1200J · Mathematics for Computer Science 计算机科学数学（离散数学） 计算机科学数学（离散数学）
 
 > **课程主页**：[Spring 2024 · Dr. Zachary Abel / Dr. Brynmor Chapman / Prof. Erik Demaine](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/)
 > **预估投入**：约 150 小时
@@ -23,4 +23,11 @@ MIT CS 的数学基础课：证明方法（归纳、反证、良序）、数论�
 
 ## 引用格式（写进申请材料时）
 
-> Massachusetts Institute of Technology. *Mathematics for Computer Science (18.062J)*, Spring 2024. MIT OpenCourseWare (https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/). CC BY-NC-SA.
+> Massachusetts Institute of Technology. *Mathematics for Computer Science (6.1200J)*, Spring 2024. MIT OpenCourseWare (https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/). CC BY-NC-SA.
+
+## 补充资源（可选 · 中文/入门友好）
+
+- [Mathematical Thinking in Computer Science（UC San Diego, Coursera）](https://www.coursera.org/learn/mathematical-thinking-computer-science)：专为转专业者设计的证明思维入门课，可免费旁听，适合在本课之前或并行建立证明直觉
+- [离散数学概论（北京大学, 中国大学MOOC）](https://www.icourse163.org/course/PKU-1002525004)：中文授课的离散数学对照课程，适合卡壳时换中文视角重看
+- 免费配套教材《Mathematics for Computer Science》PDF：课程主页可直接下载（Lehman / Leighton / Meyer，含完整习题集）
+

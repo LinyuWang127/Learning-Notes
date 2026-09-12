@@ -21,6 +21,11 @@
 - RSA 的完整数学基础：从欧拉定理到实现陷阱
 - 二次互反律的证明路线图及其在素性测试中的应用
 
+## 补充资源（可选 · 入门友好）
+
+- [Mathematical Foundations for Cryptography（University of Colorado Boulder, Coursera）](https://www.coursera.org/learn/mathematical-foundations-cryptography)：可免费旁听，从质数、模算术、乘法逆元、扩展欧几里得算法讲到离散对数——密码学数学最对口的入门课，无需前置经验，适合在本课之前热身或并行对照
+- 配套实践：`code/` 中用 Python 实现扩展欧几里得算法与 RSA 加解密，附测试向量
+
 ## 引用格式（写进申请材料时）
 
 > Massachusetts Institute of Technology. *Theory of Numbers (18.781)*, Spring 2012. MIT OpenCourseWare (https://ocw.mit.edu/courses/18-781-theory-of-numbers-spring-2012/). CC BY-NC-SA.

@@ -2,7 +2,7 @@
 
 > **课程主页**：[Spring 2020 · Prof. Erik Demaine & Prof. Srini Devadas](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)
 > **预估投入**：约 150 小时
-> **先修**：6.0001；建议与 18.062J 同步
+> **先修**：6.0001；建议与 6.1200J 同步
 
 ## 课程定位（为什么学它）
 

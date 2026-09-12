@@ -3,7 +3,7 @@
 > **目标**：以 MIT OpenCourseWare 免费课程为主线，系统修完**数学、计算机（Python / C / R / 算法）、密码学、金融工程**四个方向在本科、硕士、博士三个层级的课程，
 > 以「笔记 + 习题解答 + 编程实现 + 心得 + 课程论文」的形式沉淀为可验证的数学与计算能力作品集，支撑密码学 / 金融工程博士申请。
 >
-> 所有课程链接均已核实至 OCW 官网当前可用学期页。共 30 门 · 约 3,860 小时。
+> 所有课程链接均已核实至 OCW 官网当前可用学期页。共 31 门 · 约 4,010 小时。
 
 ## 目录结构
 
@@ -36,9 +36,9 @@ mathematics/
 | 阶段 | 内容 | 课程 |
 |---|---|---|
 | **第 0 阶段 · 入门** | 编程起步 + 微积分起步 | 6.0001（Python）→ 6.0002 ／ 18.01SC（可同步） |
-| **第 1 阶段 · 本科数学核心** | 微积分 → 线代 → 离散 | 18.02 → 18.03 → 18.06 → 18.062J |
+| **第 1 阶段 · 本科数学核心** | 微积分 → 线代 → 离散 | 18.02 → 18.03 → 18.06 → 6.1200J |
 | **第 2 阶段 · 语言与算法** | C / R + 算法 + 概率 | 6.087（C）／ 15.071（R）→ 6.006 → 18.05 → 18.600 |
-| **第 3 阶段 · 方向基础** | 三选侧重，其余顺修 | 密码学：18.703 → 18.781 → 18.404J ／ 金融：18.330 → 15.401 |
+| **第 3 阶段 · 方向基础** | 三选侧重，其余顺修 | 密码学：18.703 → 18.781 → 18.701 → 18.404J ／ 金融：18.330 → 15.401 |
 | **第 4 阶段 · 硕士层** | 证明能力 + 建模能力 | 18.100B ／ 6.046J → 18.650 → 18.783 ／ 18.642 → 18.S096 → 15.450 → 15.S08 |
 | **第 5 阶段 · 博士层** | 研究级数学 | 18.175 ／ 6.854J ／ 18.102 → 6.875 ／ 15.070J |
 
@@ -57,11 +57,12 @@ mathematics/
 | 数学核心 | **18.02** Multivariable Calculus | Fall 2007 | [ocw.mit.edu](https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/) | 150h | ☐ |
 | 数学核心 | **18.03** Differential Equations | Spring 2010 | [ocw.mit.edu](https://ocw.mit.edu/courses/18-03-differential-equations-spring-2010/) | 150h | ☐ |
 | 数学核心 | **18.06** Linear Algebra (Strang) | Spring 2010 | [ocw.mit.edu](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) | 150h | ☐ |
-| 数学核心 | **18.062J** Mathematics for Computer Science | Spring 2024 | [ocw.mit.edu](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/) | 150h | ☐ |
+| 数学核心 | **6.1200J** Mathematics for Computer Science | Spring 2024 | [ocw.mit.edu](https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/) | 150h | ☐ |
 | 数学核心 | **18.05** Introduction to Probability and Statistics | Spring 2022 | [ocw.mit.edu](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/) | 120h | ☐ |
 | 数学核心 | **18.600** Probability and Random Variables | Fall 2019 | [ocw.mit.edu](https://ocw.mit.edu/courses/18-600-probability-and-random-variables-fall-2019/) | 150h | ☐ |
 | 密码学 | **18.703** Modern Algebra | Spring 2013 | [ocw.mit.edu](https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/) | 120h | ☐ |
 | 密码学 | **18.781** Theory of Numbers | Spring 2012 | [ocw.mit.edu](https://ocw.mit.edu/courses/18-781-theory-of-numbers-spring-2012/) | 120h | ☐ |
+| 密码学 | **18.701** Algebra I (Artin) | Fall 2010 | [ocw.mit.edu](https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/) | 150h | ☐ |
 | 密码学 | **18.404J** Theory of Computation (Sipser) | Fall 2020 | [ocw.mit.edu](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) | 150h | ☐ |
 | 金融工程 | **18.330** Introduction to Numerical Analysis | Spring 2012 | [ocw.mit.edu](https://ocw.mit.edu/courses/18-330-introduction-to-numerical-analysis-spring-2012/) | 120h | ☐ |
 | 金融工程 | **15.401** Finance Theory I (Andrew Lo) | Fall 2008 | [ocw.mit.edu](https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/) | 120h | ☐ |
@@ -89,7 +90,7 @@ mathematics/
 | 密码学 | **6.875** Cryptography and Cryptanalysis (Micali) | Spring 2005 | [ocw.mit.edu](https://ocw.mit.edu/courses/6-875-cryptography-and-cryptanalysis-spring-2005/) | 120h | ☐ |
 | 金融工程 | **15.070J** Advanced Stochastic Processes (Gamarnik) | Fall 2013 | [ocw.mit.edu](https://ocw.mit.edu/courses/sloan-school-of-management/15-070j-advanced-stochastic-processes-fall-2013/) | 150h | ☐ |
 
-**总投入：约 3,860 小时**（每天 2 小时 ≈ 5.3 年；每天 3 小时 ≈ 3.5 年；每天 4 小时 ≈ 2.6 年）。
+**总投入：约 4,010 小时**（每天 2 小时 ≈ 5.3 年；每天 3 小时 ≈ 3.5 年；每天 4 小时 ≈ 2.6 年）。
 想清楚后再全量启动；推荐先跑 [`roadmap-24-week/`](./roadmap-24-week/)（≈170h）确认兴趣与承受度。
 
 ## 四方向 × 三层级的关系
@@ -102,7 +103,8 @@ mathematics/
 ```
 
 - **数学核心**与**计算机**是两条公共地基：数学给证明，计算机给实现——密码学和金融工程都同时需要两者
-- **密码学线**：6.0001 → 6.006 → 18.062J → 18.703 → 18.781 → 18.783 → 6.087（C，读密码库）→ 18.404J → 6.875
+- **密码学线**：6.0001 → 6.006 → 6.1200J → 18.703 → 18.781 → 18.701 → 18.783 → 6.087（C，读密码库）→ 18.404J → 6.875
+  - 前沿实践（穿插进行）：Cryptopals / CryptoHack 随学随练 → IACR ePrint 每周追踪 → 6.875 期间用 Circom/Arkworks 做简化 zk-SNARK
 - **金融工程线**：6.0001 → 6.0002 → 15.071（R）→ 18.600 → 18.650 → 18.642 → 15.450 → 18.175 → 15.070J
 - 博士层汇合点：测度论概率（18.175）服务两条线；6.854J 的组合优化同时是金融优化与格密码的数学工具
 

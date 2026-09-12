@@ -2,7 +2,7 @@
 
 > **课程主页**：[Spring 2015 · Prof. Erik Demaine / Prof. Srini Devadas / Prof. Nancy Lynch](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/)
 > **预估投入**：约 150 小时
-> **先修**：6.006 + 18.062J；教材 CLRS《算法导论》
+> **先修**：6.006 + 6.1200J；教材 CLRS《算法导论》
 
 ## 课程定位（为什么学它）
 

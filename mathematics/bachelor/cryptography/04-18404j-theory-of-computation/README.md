@@ -2,7 +2,7 @@
 
 > **课程主页**：[Fall 2020 · Prof. Michael Sipser](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/)
 > **预估投入**：约 150 小时
-> **先修**：18.062J（离散数学）
+> **先修**：6.1200J（离散数学）
 
 ## 课程定位（为什么学它）
 
