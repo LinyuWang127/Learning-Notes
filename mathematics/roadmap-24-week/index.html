@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>数学进阶路线 · 密码学 / 金融科技博士申请</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f7f4ee;
+    color: #102a6b;
+    padding: 40px 24px 60px;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 48px; }
+  header .kicker {
+    display: inline-block;
+    background: #fcedd3;
+    color: #8a6a3b;
+    font-size: 12px;
+    letter-spacing: 4px;
+    padding: 5px 18px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+  }
+  h1 { font-size: 30px; font-weight: 700; letter-spacing: 1px; }
+  header .sub { color: #5990c0; margin-top: 8px; font-size: 15px; }
+  header .sub b { color: #015185; }
+
+  /* ---- 阶梯 ---- */
+  .stairs {
+    display: flex;
+    align-items: flex-end;
+    gap: 14px;
+  }
+  .step {
+    flex: 1;
+    background: #ffffff;
+    border: 1px solid #e3ddd0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 -2px 10px rgba(16,42,107,.06);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .step .band {
+    padding: 14px 16px;
+    color: #fff;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .step .band .lv { font-size: 22px; font-weight: 800; }
+  .step .band .wk { font-size: 12px; opacity: .85; margin-left: auto; white-space: nowrap; }
+  .step .inner { padding: 14px 16px 18px; flex: 1; display: flex; flex-direction: column; }
+  .step h2 { font-size: 15px; margin-bottom: 2px; }
+  .step .goal { font-size: 12px; color: #8a93a8; margin-bottom: 10px; }
+  .step ul { list-style: none; margin-bottom: 10px; }
+  .step li { font-size: 12.5px; padding: 5px 0; border-top: 1px dashed #ece6da; }
+  .step li a { color: #015185; text-decoration: none; font-weight: 600; word-break: break-all; }
+  .step li a:hover { text-decoration: underline; }
+  .step li .tag { color: #8a93a8; font-weight: 400; }
+  .step .out {
+    margin-top: auto;
+    background: #fcedd3;
+    color: #8a6a3b;
+    font-size: 11.5px;
+    padding: 7px 10px;
+    border-radius: 6px;
+  }
+  .step .out b { font-size: 11px; letter-spacing: 2px; }
+  /* 阶梯高度与配色 */
+  .s1 { height: 400px; } .s1 .band { background: #5990c0; }
+  .s2 { height: 452px; } .s2 .band { background: #3d6fa3; }
+  .s3 { height: 504px; } .s3 .band { background: #015185; }
+  .s4 { height: 556px; } .s4 .band { background: #102a6b; }
+  .s5 { height: 608px; } .s5 .band { background: #b8935c; }
+  .s3 { outline: 2px solid #cca273; outline-offset: -2px; }
+  .s3 .band .star { color: #cca273; font-size: 13px; }
+  .ground {
+    height: 10px; border-radius: 3px;
+    background: linear-gradient(90deg, #5990c0, #102a6b, #b8935c);
+    margin-top: 0; margin-bottom: 8px;
+  }
+  .axis { display: flex; justify-content: space-between; color: #8a93a8; font-size: 12px; }
+  .axis .arr { margin-right: auto; margin-left: auto; }
+  .axis span:not(.arr) { white-space: nowrap; }
+
+  /* ---- 每周节奏 ---- */
+  .rhythm {
+    margin-top: 44px;
+    background: #fff;
+    border: 1px solid #e3ddd0;
+    border-radius: 10px;
+    padding: 22px 26px;
+  }
+  .rhythm h3 { font-size: 16px; color: #102a6b; margin-bottom: 14px; }
+  .rhythm .days { display: flex; gap: 12px; }
+  .rhythm .cell { flex: 1; text-align: center; border-radius: 8px; padding: 14px 8px; }
+  .rhythm .cell .d { font-size: 13px; font-weight: 700; }
+  .rhythm .cell .t { font-size: 12px; margin-top: 4px; }
+  .c-work { background: #eef4fa; color: #015185; }
+  .c-note { background: #fcedd3; color: #8a6a3b; }
+  .c-rest { background: #f4f2ec; color: #8a93a8; }
+
+  .foot {
+    margin-top: 44px; text-align: center; color: #5990c0; font-size: 13px;
+  }
+  .foot b { color: #102a6b; }
+  @media (max-width: 980px) {
+    .stairs { flex-direction: column; align-items: stretch; }
+    .step { height: auto !important; }
+    .rhythm .days { flex-wrap: wrap; }
+    .rhythm .cell { min-width: 30%; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="kicker">每天 1 小时 · 24 周</div>
+    <h1>数学进阶阶梯 · 密码学 / 金融科技博士申请</h1>
+    <div class="sub">从左到右、从易到难——完成每一级，仓库里就多一份<b>可验证的数学能力证明</b></div>
+  </header>
+
+  <div class="stairs">
+
+    <!-- L1 -->
+    <div class="step s1">
+      <div class="band"><span class="lv">L1</span><span class="wk">第 1–4 周</span></div>
+      <div class="inner">
+        <h2>数学思维入门</h2>
+        <div class="goal">建立证明与形式化思维</div>
+        <ul>
+          <li><a href="https://www.coursera.org/learn/mathematical-thinking-computer-science">Mathematical Thinking in CS</a><br><span class="tag">Coursera · UCSD · 英文主线</span></li>
+          <li><a href="https://www.icourse163.org/course/PKU-1002525004">离散数学概论</a><br><span class="tag">中国大学MOOC · 北大 · 中文对照</span></li>
+        </ul>
+        <div class="out"><b>产出</b><br>课程完成记录 + 笔记 4 篇</div>
+      </div>
+    </div>
+
+    <!-- L2 -->
+    <div class="step s2">
+      <div class="band"><span class="lv">L2</span><span class="wk">第 5–10 周</span></div>
+      <div class="inner">
+        <h2>离散数学核心</h2>
+        <div class="goal">组合、概率、图论——算法与密码学的地基</div>
+        <ul>
+          <li><a href="https://www.coursera.org/learn/combinatorics">Combinatorics and Probability</a><br><span class="tag">Coursera · UCSD · 第 5–7 周</span></li>
+          <li><a href="https://www.coursera.org/learn/graphs">Introduction to Graph Theory</a><br><span class="tag">Coursera · UCSD · 第 8–10 周</span></li>
+        </ul>
+        <div class="out"><b>产出</b><br>认证证书 ×2 + 计数器/随机图 Python 代码</div>
+      </div>
+    </div>
+
+    <!-- L3 -->
+    <div class="step s3">
+      <div class="band"><span class="lv">L3</span><span class="star">★ 核心</span><span class="wk">第 11–16 周</span></div>
+      <div class="inner">
+        <h2>密码学数学基础</h2>
+        <div class="goal">数论 · 模运算 · 代数结构 · 椭圆曲线</div>
+        <ul>
+          <li><a href="https://www.icourse163.org/course/SJTU-1003379015">信息安全数学基础</a><br><span class="tag">中国大学MOOC · 上交 · 中文主线 12 周</span></li>
+          <li><a href="https://higher.smartedu.cn/course/6a59477940d86e7f37c2fc1b">同课程镜像</a> <span class="tag">· 智慧教育平台</span></li>
+          <li><a href="https://www.coursera.org/learn/number-theory-cryptography">Number Theory and Cryptography</a><br><span class="tag">Coursera · UCSD · 第 11–13 周</span></li>
+          <li><a href="https://www.coursera.org/learn/mathematical-foundations-cryptography">Mathematical Foundations for Cryptography</a><br><span class="tag">Coursera · CU Boulder · 第 14–16 周</span></li>
+        </ul>
+        <div class="out"><b>产出</b><br>MOOC 认证证书 + RSA/模逆/椭圆曲线 Python 实现</div>
+      </div>
+    </div>
+
+    <!-- L4 -->
+    <div class="step s4">
+      <div class="band"><span class="lv">L4</span><span class="wk">第 17–24 周</span></div>
+      <div class="inner">
+        <h2>抽象代数与数论进阶</h2>
+        <div class="goal">群 · 环 · 域——现代密码学（格、椭圆曲线）的钥匙</div>
+        <ul>
+          <li><a href="https://ocw.mit.edu/courses/18-703-modern-algebra-spring-2013/">MIT 18.703 Modern Algebra</a><br><span class="tag">OCW · 第 17–21 周 · 群论环论</span></li>
+          <li><a href="https://ocw.mit.edu/courses/18-781-theory-of-numbers-spring-2022/">MIT 18.781 Theory of Numbers</a><br><span class="tag">OCW · 第 22–24 周 · 二次互反律</span></li>
+        </ul>
+        <div class="out"><b>产出</b><br>全部 Problem Sets 手写解答上传 GitHub</div>
+      </div>
+    </div>
+
+    <!-- L5 -->
+    <div class="step s5">
+      <div class="band"><span class="lv">L5</span><span class="wk">可选 · 并行/延后</span></div>
+      <div class="inner">
+        <h2>金融科技方向</h2>
+        <div class="goal">量化金融数学 · 可转学分的准学位</div>
+        <ul>
+          <li><a href="https://www.edx.org/micromasters/mitx-finance">MITx MicroMasters in Finance</a><br><span class="tag">edX · 5 门研究生课 · 部分大学可转硕士学分</span></li>
+          <li><a href="https://www.coursera.org/learn/crypto">Cryptography I</a><br><span class="tag">Coursera · Stanford · 密码学方向锦上添花</span></li>
+        </ul>
+        <div class="out"><b>产出</b><br>微硕士证书——金融科技博士申请的强证明</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="ground"></div>
+  <div class="axis">
+    <span>入门</span>
+    <span class="arr">────────────── 难度递增 ──────────────►</span>
+    <span>博士级数学成熟度</span>
+  </div>
+
+  <!-- 每周节奏 -->
+  <div class="rhythm">
+    <h3>每周节奏（每天 1 小时）</h3>
+    <div class="days">
+      <div class="cell c-work"><div class="d">周一–周五</div><div class="t">视频课 + 随堂练习<br>45 min 视频 / 15 min 笔记</div></div>
+      <div class="cell c-note"><div class="d">周六</div><div class="t">笔记整理为 Markdown<br>推送到 GitHub</div></div>
+      <div class="cell c-rest"><div class="d">周日</div><div class="t">休息 / 补进度<br>复习本周错题</div></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <b>最终交付：</b>认证证书 + MIT 习题全集 + 密码学算法代码库 = 一份不需要第二个硕士学位的数学能力作品集
+  </div>
+
+</div>
+</body>
+</html>

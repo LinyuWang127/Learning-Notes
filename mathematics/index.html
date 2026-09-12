@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mathematics · 本硕博学习路线图</title>
+<style>
+  :root{
+    --navy:#102a6b; --gold:#cca273; --deep:#015185; --sky:#5990c0; --cream:#fcedd3;
+    --ink:#22303f; --muted:#6b7a8c; --line:#e3e9f2; --bg:#f7f9fc; --card:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);padding:32px 20px 60px}
+  .wrap{max-width:1060px;margin:0 auto}
+  header{text-align:center;margin-bottom:8px}
+  h1{color:var(--navy);font-size:26px;letter-spacing:.5px}
+  .sub{color:var(--muted);font-size:14px;margin-top:6px}
+  .badges{display:flex;justify-content:center;gap:10px;margin:16px 0 8px;flex-wrap:wrap}
+  .badge{background:var(--cream);color:var(--navy);border:1px solid var(--gold);border-radius:999px;padding:4px 14px;font-size:13px;font-weight:600}
+  .legend{display:flex;justify-content:center;gap:18px;margin:18px 0 30px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .dot{width:11px;height:11px;border-radius:3px;display:inline-block}
+  .d-math{background:var(--navy)} .d-cs{background:var(--sky)} .d-crypto{background:var(--gold)} .d-fin{background:var(--deep)}
+
+  /* staircase */
+  .stair{display:flex;flex-direction:column;gap:0}
+  .stage{display:flex;gap:16px;align-items:stretch}
+  .stage + .stage{margin-top:14px}
+  .snum{flex:0 0 64px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+        background:var(--navy);color:#fff;border-radius:10px;padding:10px 6px;min-height:92px}
+  .stage:nth-child(even) .snum{background:var(--deep)}
+  .stage[data-lv="5"] .snum{background:var(--gold);color:var(--navy)}
+  .snum b{font-size:20px;line-height:1}
+  .snum small{font-size:11px;opacity:.85;margin-top:6px;text-align:center}
+  .sbody{flex:1;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;
+         box-shadow:0 1px 3px rgba(16,42,107,.06)}
+  .stitle{font-size:15px;font-weight:700;color:var(--navy);margin-bottom:3px}
+  .sdesc{font-size:12.5px;color:var(--muted);margin-bottom:10px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{font-size:12.5px;padding:5px 11px;border-radius:7px;font-weight:600;white-space:nowrap;
+        display:inline-flex;align-items:center;gap:6px;border:1px solid transparent}
+  .chip .o{font-size:10px;opacity:.65}
+  .c-math{background:rgba(16,42,107,.08);color:var(--navy);border-color:rgba(16,42,107,.22)}
+  .c-cs{background:rgba(89,144,192,.12);color:#2d6590;border-color:rgba(89,144,192,.38)}
+  .c-crypto{background:rgba(204,162,115,.16);color:#7a5a2b;border-color:rgba(204,162,115,.55)}
+  .c-fin{background:rgba(1,81,133,.08);color:var(--deep);border-color:rgba(1,81,133,.25)}
+  .arrow{text-align:center;color:var(--sky);font-size:16px;margin:-4px 0 -4px 40px;line-height:1}
+  .arrow span{font-size:12px;color:var(--muted);margin-left:8px}
+
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:34px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:center}
+  .stat b{display:block;font-size:22px;color:var(--navy)}
+  .stat span{font-size:12px;color:var(--muted)}
+  footer{margin-top:30px;text-align:center;font-size:12px;color:var(--muted);line-height:1.7}
+  a{color:var(--sky);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Mathematics · 本硕博课程学习路线图</h1>
+    <div class="sub">数学 · 计算机（Python / C / R / 算法）· 密码学 · 金融工程 —— 从易到难，六阶段梯度推进</div>
+    <div class="badges">
+      <span class="badge">30 门课</span><span class="badge">约 3,860 小时</span><span class="badge">全部免费 · MIT OCW</span><span class="badge">链接已核实</span>
+    </div>
+  </header>
+
+  <div class="legend">
+    <span><i class="dot d-math"></i>数学核心</span>
+    <span><i class="dot d-cs"></i>计算机</span>
+    <span><i class="dot d-crypto"></i>密码学</span>
+    <span><i class="dot d-fin"></i>金融工程</span>
+  </div>
+
+  <div class="stair">
+    <div class="stage" data-lv="0">
+      <div class="snum"><b>0</b><small>入门</small></div>
+      <div class="sbody">
+        <div class="stitle">起步：编程语言 + 微积分</div>
+        <div class="sdesc">零基础可进。6.0001 是整个作品集的起点——所有 <code>code/</code> 产出的主语言。</div>
+        <div class="chips">
+          <span class="chip c-cs"><span class="o">①</span>6.0001 Python 入门</span>
+          <span class="chip c-cs"><span class="o">②</span>6.0002 计算思维与数据科学</span>
+          <span class="chip c-math"><span class="o">①</span>18.01SC 单变量微积分</span>
+        </div>
+      </div>
+    </div>
+    <div class="arrow">▼<span>编程线与数学线并行推进</span></div>
+
+    <div class="stage" data-lv="1">
+      <div class="snum"><b>1</b><small>本科数学核心</small></div>
+      <div class="sbody">
+        <div class="stitle">数学地基：微积分 → 线代 → 离散</div>
+        <div class="sdesc">Strang 的 18.06 是全体系最著名的课；18.062J（离散数学）是密码学与算法的共同先修。</div>
+        <div class="chips">
+          <span class="chip c-math"><span class="o">②</span>18.02 多变量微积分</span>
+          <span class="chip c-math"><span class="o">③</span>18.03 微分方程</span>
+          <span class="chip c-math"><span class="o">④</span>18.06 线性代数</span>
+          <span class="chip c-math"><span class="o">⑤</span>18.062J 离散数学</span>
+        </div>
+      </div>
+    </div>
+    <div class="arrow">▼<span>加入第二第三门语言与算法</span></div>
+
+    <div class="stage" data-lv="2">
+      <div class="snum"><b>2</b><small>语言与算法</small></div>
+      <div class="sbody">
+        <div class="stitle">C / R + 算法导论 + 概率统计</div>
+        <div class="sdesc">C 是读密码库的刚需（OpenSSL 全是 C）；R 是金融数据分析的行业语言；算法线从这里正式开始。</div>
+        <div class="chips">
+          <span class="chip c-cs"><span class="o">③</span>6.087 C 语言实战</span>
+          <span class="chip c-cs"><span class="o">④</span>15.071 数据分析（R）</span>
+          <span class="chip c-cs"><span class="o">⑤</span>6.006 算法导论</span>
+          <span class="chip c-math"><span class="o">⑥</span>18.05 概率统计</span>
+          <span class="chip c-math"><span class="o">⑦</span>18.600 概率与随机变量</span>
+        </div>
+      </div>
+    </div>
+    <div class="arrow">▼<span>分方向侧重（其余方向顺修）</span></div>
+
+    <div class="stage" data-lv="3">
+      <div class="snum"><b>3</b><small>方向基础</small></div>
+      <div class="sbody">
+        <div class="stitle">密码学线 / 金融工程线的本科收口</div>
+        <div class="sdesc">密码学线吃「代数 + 数论 + 计算理论」；金融线吃「数值分析 + 金融理论」。</div>
+        <div class="chips">
+          <span class="chip c-crypto"><span class="o">①</span>18.703 近世代数</span>
+          <span class="chip c-crypto"><span class="o">②</span>18.781 数论</span>
+          <span class="chip c-crypto"><span class="o">③</span>18.404J 计算理论</span>
+          <span class="chip c-fin"><span class="o">①</span>18.330 数值分析</span>
+          <span class="chip c-fin"><span class="o">②</span>15.401 金融理论 I</span>
+        </div>
+      </div>
+    </div>
+    <div class="arrow">▼<span>进入研究生层级：证明能力 + 建模能力</span></div>
+
+    <div class="stage" data-lv="4">
+      <div class="snum"><b>4</b><small>硕士层</small></div>
+      <div class="sbody">
+        <div class="stitle">实分析分水岭 + 金融数学旗舰课群</div>
+        <div class="sdesc">18.100B 实分析 = 证明能力从这里开始算数；18.642（2024）是 MIT 数学系的金融数学旗舰。</div>
+        <div class="chips">
+          <span class="chip c-math"><span class="o">①</span>18.100B 实分析</span>
+          <span class="chip c-math"><span class="o">②</span>18.650 应用统计</span>
+          <span class="chip c-cs"><span class="o">①</span>6.046J 算法设计与分析</span>
+          <span class="chip c-crypto"><span class="o">①</span>18.783 椭圆曲线</span>
+          <span class="chip c-fin"><span class="o">①</span>18.642 金融数学（2024）</span>
+          <span class="chip c-fin"><span class="o">②</span>18.S096 金融数学（2013）</span>
+          <span class="chip c-fin"><span class="o">③</span>15.450 金融分析</span>
+          <span class="chip c-fin"><span class="o">④</span>15.S08 金融科技</span>
+        </div>
+      </div>
+    </div>
+    <div class="arrow">▼<span>博士层：研究级数学与算法</span></div>
+
+    <div class="stage" data-lv="5">
+      <div class="snum"><b>5</b><small>博士层</small></div>
+      <div class="sbody">
+        <div class="stitle">测度论 · 泛函 · 高级算法 · 可证明安全 · 随机过程</div>
+        <div class="sdesc">五门课全部是 MIT 研究生资格级：Micali（图灵奖）与 Goemans（组合优化大师）亲授。</div>
+        <div class="chips">
+          <span class="chip c-math"><span class="o">①</span>18.175 测度论概率</span>
+          <span class="chip c-math"><span class="o">②</span>18.102 泛函分析</span>
+          <span class="chip c-cs"><span class="o">①</span>6.854J 高级算法</span>
+          <span class="chip c-crypto"><span class="o">①</span>6.875 密码学（Micali）</span>
+          <span class="chip c-fin"><span class="o">①</span>15.070J 高级随机过程</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><b>17</b><span>本科层（≈2,180h）</span></div>
+    <div class="stat"><b>8</b><span>硕士层（≈990h）</span></div>
+    <div class="stat"><b>5</b><span>博士层（≈690h）</span></div>
+    <div class="stat"><b>4</b><span>方向 × 3 层级</span></div>
+  </div>
+
+  <footer>
+    每门课统一五件套：notes / problem-sets / code / reflections / paper —— 课程链接见各方向 README 与
+    <a href="README.md">主 README</a>。<br>
+    All course materials © MIT, CC BY-NC-SA · 本仓库仅包含本人的笔记、解答与论文。
+  </footer>
+</div>
+</body>
+</html>
